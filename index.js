@@ -47,3 +47,5 @@ function startAddLogs(startDate) {
 }
 
 startAddLogs(19);
+
+//just my personal utility file to make my life easier
