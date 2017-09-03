@@ -47,27 +47,3 @@ function startAddLogs(startDate) {
 }
 
 startAddLogs(19);
-
-/*
-
-var sleepPoints = document.querySelector("#fctrkvalue_2");
-var sleepDate = document.querySelector('#fctrkdate_2');
-var sleepAdd = document.querySelector("#fctrk_form_2 .seven.columns  a");
-
-var dateTemplate = '2017-09-#';
-
-var end = 2;
-
-function healthSleep(start) {
-    console.log('start:', start);
-    sleepPoints.value = 1;
-    sleepDate.value = dateTemplate.replace('#', start++);
-    sleepAdd.click();
-    if (start <= end) {
-        setTimeout(function() {
-            healthSleep(start)
-        }, 200);
-    }    
-}
-
-healthSleep(1)
